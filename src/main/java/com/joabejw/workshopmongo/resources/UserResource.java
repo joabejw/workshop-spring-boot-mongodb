@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.joabejw.workshopmongo.UserDTO;
+import com.joabejw.workshopmongo.dto.UserDTO;
 import com.joabejw.workshopmongo.entities.User;
 import com.joabejw.workshopmongo.services.UserService;
 
