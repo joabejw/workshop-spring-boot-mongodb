@@ -1,6 +1,7 @@
 package com.joabejw.workshopmongo.entities;
 
 import java.io.Serializable;
+import java.util.List;
 import java.util.Objects;
 
 import org.springframework.data.annotation.Id;
@@ -15,6 +16,8 @@ public class User implements Serializable{
 	private String id;
 	private String name;
 	private String email;
+	
+	private List<Post> posts;
 	
 	public User() {
 	}
